@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/Good"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1DDB16"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/GoodValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1DDB16"
+        android:textSize="18dp"
+
+        android:padding="8dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/Normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE400"
+        android:textSize="18dp"
+
+        android:padding="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/NormalValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE400"
+        android:textSize="18dp"
+
+        android:padding="8dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/Bad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="18dp"
+
+        android:padding="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/BadValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="18dp"
+
+        android:padding="8dp"
+        android:textStyle="bold"
+        />
+</LinearLayout>
